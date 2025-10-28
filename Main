@@ -1,0 +1,97 @@
+\documentclass[11pt, letterpaper]{article}
+
+% Packages
+\usepackage[
+    ignoreheadfoot,
+    top=1.2 cm,
+    bottom=1.2 cm,
+    left=2 cm,
+    right=2 cm,
+    footskip=1.0 cm,
+]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0,0,0}
+\usepackage{hyperref}
+\usepackage{paracol}
+
+\raggedright
+\setlength{\parindent}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titlespacing{\section}{-1pt}{0.15 cm}{0.1 cm}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+
+\begin{document}
+
+% ===== Header =====
+\begin{center}
+{\Huge\bfseries Ian Torres} \\[2pt]
+Buffalo / Rochester, NY \,|\, 716-367-8386 \,|\, \href{mailto:ilt5440@rit.edu}{ilt5440@rit.edu} \\[2pt]
+\href{https://github.com/ianator963}{github.com/ianator963} \,|\, \href{https://www.linkedin.com/in/ian-lb-torres}{linkedin.com/in/ian-lb-torres}
+\end{center}
+
+% ===== Professional Summary =====
+\section*{Professional Summary}
+Aspiring cybersecurity analyst with hands-on experience in network defense, bug bounty research, and web security testing. Skilled in Linux, Splunk, Wireshark, and Python for log analysis, data investigation, and incident response. Passionate about continuous learning through competitions, freelance testing, and applied projects involving smart contracts, web applications, and PDF vulnerability analysis.
+
+% ===== Education =====
+\section*{Education}
+\textbf{Rochester Institute of Technology}, Rochester, NY \hfill \textbf{Expected May 2025} \\
+\textit{B.S. Humanities, Computation and Design; Minor in Criminal Justice} \\
+- Transferred from Computing Security major; cybersecurity focus through RITsec and applied projects. \\
+- Seal of Biliteracy in French; International Baccalaureate Diploma, City Honors HS, Buffalo, NY. \\
+- \textbf{Relevant Coursework:} Cybersecurity Policy, Digital Forensics, Data Mining, Database Systems
+
+% ===== Skills =====
+\section*{Skills}
+\textbf{Security Tools:} Splunk, Wireshark, Nmap, Burp Suite, Metasploit, Linux, Git \\
+\textbf{Programming \& Scripting:} Python, SQL, Bash \\
+\textbf{Networking \& Analysis:} Incident response, threat investigation, packet capture analysis, vulnerability assessment \\
+\textbf{Other Tools:} ArcGIS StoryMaps, Excel, Adobe Creative Suite \\
+\textbf{Languages:} English (native), French (Seal of Biliteracy)
+
+% ===== Technical Experience =====
+\section*{Technical Experience}
+\textbf{RITsec (Cybersecurity Club) \hfill Fall 2022 – Present} \\
+- Participated in blue-team and red-team operations, CTFs, and SOC-style exercises. \\
+- Analyzed logs and packet captures using Splunk and Wireshark to detect and investigate threats. \\
+- Collaborated on incident response drills and defensive network simulations.
+
+\textbf{Capstone – ALANA Student Blog \& Chat Platform \hfill Fall 2024 – Spring 2025} \\
+- Designing a secure web application for ALANA students to share experiences and resources. \\
+- Implementing ID-confirmed authentication and chat functionality to ensure privacy and safety. \\
+- Building Python-based web scrapers to collect and organize relevant community and support resources. \\
+- Coordinating project management, version control, and content moderation across team members.
+
+\textbf{Bug Bounty \& Freelance Security Testing \hfill 2023–Present} \\
+- Conducted responsible disclosure testing on smart-contract and web-based platforms. \\
+- Performed PDF analysis to identify injection and scripting vulnerabilities. \\
+- Authored detailed reports documenting findings and remediation suggestions.
+
+% ===== Projects & Competitions =====
+\section*{Projects \& Competitions}
+
+
+\textbf{Python Automation Projects \hfill 2023–Present} \\
+- Built Python scripts for data scraping and workflow automation. \\
+- Applied automation concepts to enrich and analyze security datasets.
+
+\textbf{Cybersecurity Competitions \hfill 2020–2024} \\
+- UB NetDef, RITsec CTF, IRSec, CSAW — focused on incident response, reverse engineering, and web exploitation.
+
+% ===== Involvement & Leadership =====
+\section*{Involvement \& Leadership}
+\textbf{Tau Kappa Epsilon Fraternity \hfill Spring 2024 – Present} \\
+- Managed \$6,000 event budget; coordinated logistics for 75 attendees. \\
+- Promoted accountability and teamwork across chapter operations.
+
+\textbf{Freestyle Ski \& Snowboard Club \hfill 2023 – Present} \\
+- Assisted with event setup and recruitment; supported team collaboration and safety.
+
+\end{document}
